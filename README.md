@@ -1,12 +1,14 @@
 # KituraBotFrontendEchoSample
 Kitura Sample Bot Frontend: implement a simple ECHO Bot using the KituraBot and the KituraBotFacebookMessenger channel
 
+**Warning: This is work in progress**
+
 KituraBot (https://github.com/JacopoMangiavacchi/KituraBot) is a Swift, Kitura based, declarative multi-channel BOT framework.
 
 KituraBotFacebookMessenger (https://github.com/JacopoMangiavacchi/KituraBotFacebookMessenger) is a KituraBot plugin for the Facebook Messenger channel.  It comply to the KituraBotProtocol defined in the KituraBot package.
 
 
-SETUP:
+## Setup
 
 Configure Facebook Messenger Bot parameters in the Configuration.swift file and follow Facebook documentation at https://developers.facebook.com/docs/messenger-platform/implementation#subscribe_app_pages
 
@@ -22,7 +24,7 @@ Configure Facebook Messenger Bot parameters in the Configuration.swift file and 
     }
 
 
-Sample code:
+## Sample code
 
     //1. Instanciate KituraBot and implement BOT logic
     let bot = KituraBot(router: router) { (channelName: String, senderId: String, message: String) -> String? in
