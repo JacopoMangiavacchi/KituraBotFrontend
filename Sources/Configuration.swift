@@ -22,7 +22,7 @@ public struct Configuration {
     static let appSecret = "..."
 
     // Arbitrary value used to validate a webhook
-    static let validationToken = "."
+    static let validationToken = "..."
 
     // Generate a page access token for your page from the App Dashboard
     static let pageAccessToken = "..."
