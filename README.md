@@ -2,7 +2,9 @@
 Kitura Sample Bot Frontend: implement a simple ECHO Bot using the KituraBot and the KituraBotFacebookMessenger channel
 
 KituraBot (https://github.com/JacopoMangiavacchi/KituraBot) is a Swift, Kitura based, declarative multi-channel BOT framework.
+
 KituraBotFacebookMessenger (https://github.com/JacopoMangiavacchi/KituraBotFacebookMessenger) is a KituraBot plugin for the Facebook Messenger channel.  It comply to the KituraBotProtocol defined in the KituraBot package.
+
 
 SETUP:
 
