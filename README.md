@@ -10,10 +10,19 @@ SETUP:
 
 Configure Facebook Messenger Bot parameters in the Configuration.swift file and follow Facebook documentation at https://developers.facebook.com/docs/messenger-platform/implementation#subscribe_app_pages
 
+    public struct Configuration {
+        // App Secret can be retrieved from the App Dashboard
+        static let appSecret = "..."
+
+        // Arbitrary value used to validate a webhook
+        static let validationToken = "..."
+
+        // Generate a page access token for your page from the App Dashboard
+        static let pageAccessToken = "..."
+    }
+
 
 Sample code:
-    
-Usage:
 
     //1. Instanciate KituraBot and implement BOT logic
     let bot = KituraBot(router: router) { (channelName: String, senderId: String, message: String) -> String? in
