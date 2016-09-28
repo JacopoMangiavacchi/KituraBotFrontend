@@ -19,11 +19,11 @@
  */
 public struct Configuration {
     // App Secret can be retrieved from the App Dashboard
-    static let appSecret = "4c36e757ed0976a2856564976aac973d"
+    static let appSecret = "..."
 
     // Arbitrary value used to validate a webhook
-    static let validationToken = "JacopoMangiavacchiToken"
+    static let validationToken = "."
 
     // Generate a page access token for your page from the App Dashboard
-    static let pageAccessToken = "EAAIlxjmRZB7YBADlpLZCugk0wku7qprQK2oOEMSPnUZBQVXyt1VwW2o4BPciBTu6eE9jUOAei7ZAcnXIg7g0EiG88QtQEJWDfU4q1dRZAtVmKQSOyF63LZCk111ldKO7cfd6PP5AZBp4pFssPYz4QrrpfUGkG4es7w0zaDQZAJrRZAAZDZD"
+    static let pageAccessToken = "..."
 }
