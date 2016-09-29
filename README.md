@@ -21,6 +21,9 @@ Configure Facebook Messenger Bot parameters in the Configuration.swift file and 
 
         // Generate a page access token for your page from the App Dashboard
         static let pageAccessToken = "..."
+        
+        // Token to use for verifing access to the Async Push Notification API
+        static let pushApiSecurityToken = "..."
     }
 
 
