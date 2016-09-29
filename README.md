@@ -28,6 +28,7 @@ Configure Facebook Messenger Bot parameters in the Configuration.swift file and 
 
 
 ## Sample code
+## A simple Echo Bot exposed over Facebook Messenger channel in both Syncronous and Asyncronous way
 
     //1. Instanciate KituraBot and implement BOT logic
     let bot = KituraBot(router: router) { (channelName: String, senderId: String, message: String) -> String? in
