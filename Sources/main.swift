@@ -24,6 +24,7 @@ import HeliumLogger
 import CloudFoundryEnv
 import KituraBot
 import KituraBotFacebookMessenger
+import KituraBotMobileAPI
 //import CloudFoundryDeploymentTracker
 
 // Disable all buffering of stdout
