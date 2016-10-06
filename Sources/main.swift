@@ -24,7 +24,6 @@ import HeliumLogger
 import CloudFoundryEnv
 import KituraBot
 import KituraBotFacebookMessenger
-import KituraBotMobileAPI
 //import CloudFoundryDeploymentTracker
 
 // Disable all buffering of stdout
@@ -79,13 +78,22 @@ bot.exposeAsyncPush(securityToken: Configuration.pushApiSecurityToken, webHookPa
 }
 
 
+//Get SSL Certificate for Push Notification
+let filepPathCrt = ResourcePathHandler.getAbsolutePath(for: "./Certificates/apns-dev.crt.pem")
+let filepPathKey = ResourcePathHandler.getAbsolutePath(for: "./Certificates/apns-dev.crt.pem")
+print("FILE PATH Crt = \(filepPathCrt)")
+print("FILE PATH Key = \(filepPathKey)")
+
+
+
+
 //2. Add specific channel to the KituraBot instance
 do {
     //2.1 Add Facebook Messenger channel
     try bot.addChannel(channelName: "FacebookEcho", channel: KituraBotFacebookMessenger(appSecret: Configuration.appSecret, validationToken: Configuration.validationToken, pageAccessToken: Configuration.pageAccessToken, webHookPath: "/webhook"))
 
     //2.2 Add MobileApp channel (use Push Notification for Asyncronous response message
-    try bot.addChannel(channelName: "MobileAppEcho", channel: KituraBotMobileAPI(securityToken: Configuration.mobileApiSecurityToken, webHookPath: "/mobileapi"))
+    try bot.addChannel(channelName: "MobileAppEcho", channel: KituraBotMobileAPI(securityToken: Configuration.mobileApiSecurityToken, webHookPath: "/mobileapi", filePathCrt: filepPathCrt, filePathKey: filepPathKey))
 
     //2.3 Add Slack, Skype etc. channels
     //try bot.addChannel(channelName: "SlackEcho1", KituraBotSlack(slackConfig: "xxx", webHookPath: "/echo1slackcommand"))
