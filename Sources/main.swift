@@ -81,7 +81,7 @@ bot.exposeAsyncPush(securityToken: Configuration.pushApiSecurityToken, webHookPa
 
 //Get SSL Certificate for Push Notification
 let filepPathCrt = ResourcePathHandler.getAbsolutePath(for: "./Certificates/apns-dev.crt.pem")
-let filepPathKey = ResourcePathHandler.getAbsolutePath(for: "./Certificates/apns-dev.crt.pem")
+let filepPathKey = ResourcePathHandler.getAbsolutePath(for: "./Certificates/apns-dev.key.pem")
 print("FILE PATH Crt = \(filepPathCrt)")
 print("FILE PATH Key = \(filepPathKey)")
 
