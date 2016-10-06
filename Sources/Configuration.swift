@@ -32,5 +32,13 @@ public struct Configuration {
     
     // Token to use for verifing access to the Mobile API
     static let mobileApiSecurityToken = "1234"
-}
 
+    // Push certificate path
+    static let mobileApiPushPassPath = "./Certificates/apns-dev.crt.pem"
+    
+    // Push key path
+    static let mobileApiPushKeyPath = "./Certificates/apns-dev.key.pem"
+
+    // Push topic
+    static let mobileApiPushTopic = "com.jacopomangiavacchi.KituraBot"
+}
