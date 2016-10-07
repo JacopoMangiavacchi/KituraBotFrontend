@@ -22,9 +22,10 @@ import KituraNet
 import LoggerAPI
 import HeliumLogger
 import CloudFoundryEnv
+import KituraRequest
 import KituraBot
 import KituraBotFacebookMessenger
-import KituraBotMobileAPI
+import KituraBotMobileAPIWithBluemixPush
 //import CloudFoundryDeploymentTracker
 
 // Disable all buffering of stdout
@@ -41,16 +42,63 @@ Log.logger = HeliumLogger()
 router.all("/", middleware: StaticFileServer())
 
 
+
+//3.a [Optional] Manage classic Asyncronous BOT logic implementation decoupling for example with OpenWhisk
+//let openWhiskMessage = ["channelName" : channelName, "senderId" : senderId, "message" : message]
+//whisk.fireTrigger(name: "xx", package: "xx", namespace: "xx", parameters: openWhiskMessage, callback: {(reply, error) -> Void in {}
+// OpenWhisk chain will use a specific KituraBotPushAction to send back to KituraBot in a asyncronous way the response message to send back to client
+func callDecoupledAsyncBotLogic(channelName: String, senderId: String, message: String, context: [String: Any]?) {
+    //3.b [Optional] Simulate a decoupled Asyncronous BOT logic
+    DispatchQueue.global(qos: .background).async {
+        let responseMessageAsync = "ECHO Async: \(message)"
+        
+        /// JSON Payload
+        /// {
+        ///     "channel" : "xxx",
+        ///     "recipientId" : "xxx",
+        ///     "messageText" : "xxx",
+        ///     "securityToken" : "xxx"
+        ///     "context" : {}
+        /// }
+        
+        var jsonPayload:[String : Any] = [
+                        "channel" : channelName,
+                        "recipientId" : senderId,
+                        "messageText" : responseMessageAsync,
+                        "securityToken" : Configuration.pushApiSecurityToken
+        ]
+        
+        if let realContext = context {
+            jsonPayload["context"] = realContext
+        }
+        
+        
+        KituraRequest.request(.POST,  Configuration.botServerUrl + Configuration.pushApiPath,
+                              parameters: jsonPayload,
+                              encoding: JSONEncoding.default).response({ (_, response, data, error) in
+                                if let _ = error {
+                                    Log.debug("Unable to send async push back.")
+                                    print("Unable to send async push back.")
+                                }
+                                else {
+                                    Log.debug("Successfully sent async push back.")
+                                    print("Successfully sent async push back.")
+                                }
+                              })
+    }
+}
+
+
+
 //1. Instanciate KituraBot and implement BOT logic
 let bot = KituraBot(router: router) { (channelName: String, senderId: String, message: String, context: [String: Any]?) -> (responseMessage: String, context: [String: Any]?)? in
     
     //1.a Implement classic Syncronous BOT logic implementation with Watson Conversation, api.ai, wit.ai or other tools
-    let responseMessage = "ECHO: \(message)"
+    let responseMessage = "ECHO Sync: \(message)"
     
-    //3.a [Optional] Manage classic Asyncronous BOT logic implementation decoupling for example with OpenWhisk
-    //let openWhiskMessage = ["channelName" : channelName, "senderId" : senderId, "message" : message]
-    //whisk.fireTrigger(name: "xx", package: "xx", namespace: "xx", parameters: openWhiskMessage, callback: {(reply, error) -> Void in {}
-    // OpenWhisk chain will use a specific KituraBotPushAction to send back to KituraBot in a asyncronous way the response message to send back to client
+    //3.b [Optional] Manage classic Asyncronous BOT logic implementation decoupling for example with OpenWhisk
+    callDecoupledAsyncBotLogic(channelName: channelName, senderId: senderId, message: message, context: context)
+
     
     //1.b return immediate Syncronouse response or return nil to do not send back any Syncronous response message
     return (responseMessage, context)
@@ -58,7 +106,7 @@ let bot = KituraBot(router: router) { (channelName: String, senderId: String, me
         
         
 //3.b [Optional] Activate Async Push Back cross channel functionality
-bot.exposeAsyncPush(securityToken: Configuration.pushApiSecurityToken, webHookPath: "/botpushapi") { (channelName: String, senderId: String, message: String, context: [String: Any]?) -> (channelName: String, message: String, context: [String: Any]?)? in
+bot.exposeAsyncPush(securityToken: Configuration.pushApiSecurityToken, webHookPath: Configuration.pushApiPath) { (channelName: String, senderId: String, message: String, context: [String: Any]?) -> (channelName: String, message: String, context: [String: Any]?)? in
     //The implementation of exposePushBack method in KituraBot class will automatically expose REST interface to be called by the Async logic (i.e. KituraBotPushAction)
     
     var responseChannelName = channelName
@@ -82,17 +130,11 @@ bot.exposeAsyncPush(securityToken: Configuration.pushApiSecurityToken, webHookPa
 //2. Add specific channel to the KituraBot instance
 do {
     //2.1 Add Facebook Messenger channel
-    try bot.addChannel(channelName: "FacebookEcho", channel: KituraBotFacebookMessenger(appSecret: Configuration.appSecret, validationToken: Configuration.validationToken, pageAccessToken: Configuration.pageAccessToken, webHookPath: "/webhook"))
+    try bot.addChannel(channelName: Configuration.facebookChanelName, channel: KituraBotFacebookMessenger(appSecret: Configuration.appSecret, validationToken: Configuration.validationToken, pageAccessToken: Configuration.pageAccessToken, webHookPath: "/webhook"))
 
-    //Get SSL Certificate for Push Notification
-    let filePathCrt = ResourcePathHandler.getAbsolutePath(for: Configuration.mobileApiPushPassPath)
-    let filePathKey = ResourcePathHandler.getAbsolutePath(for: Configuration.mobileApiPushKeyPath)
-    print("FILE PATH Crt = \(filePathCrt)")
-    print("FILE PATH Key = \(filePathKey)")
-
-    //2.2 Add MobileApp channel (use Push Notification for Asyncronous response message
-    try bot.addChannel(channelName: "MobileAppEcho", channel: KituraBotMobileAPI(securityToken: Configuration.mobileApiSecurityToken, webHookPath: "/mobileapi", filePathCrt: filePathCrt, filePathKey: filePathKey, topic: Configuration.mobileApiPushTopic))
-
+    //2.2 Add MobileApp channel (use Bluemix Push Notification for Asyncronous response message
+    try bot.addChannel(channelName: Configuration.mobileAPIChanelName, channel: KituraBotMobileAPIWithBluemixPush(securityToken: Configuration.mobileApiSecurityToken, webHookPath: Configuration.mobileApiPath, bluemixRegion: Configuration.mobileApiPushBluemixRegion, bluemixAppGuid: Configuration.mobileApiPushBluemixAppGuid, bluemixAppSecret: Configuration.mobileApiPushBluemixAppSecret))
+    
     //2.3 Add Slack, Skype etc. channels
     //try bot.addChannel(channelName: "SlackEcho1", KituraBotSlack(slackConfig: "xxx", webHookPath: "/echo1slackcommand"))
     //try bot.addChannel(channelName: "SkypeEcho1", KituraBotSkype(skypeConfig: "xxx", webHookPath: "/echo1skypewebhook"))
@@ -112,4 +154,7 @@ do {
 } catch CloudFoundryEnvError.InvalidValue {
   Log.error("Oops... something went wrong. Server did not start!")
 }
+
+
+
 
