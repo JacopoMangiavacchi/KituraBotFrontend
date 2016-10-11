@@ -1,18 +1,10 @@
-/**
-* Copyright IBM Corporation 2016
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-**/
+//
+//  main.swift
+//  KituraBot Sample Frontend
+//
+//  Created by Jacopo Mangiavacchi on 9/27/16.
+//
+//
 
 // Kitura-Starter-Bluemix shows examples for creating custom routes.
 import Foundation
@@ -24,6 +16,7 @@ import HeliumLogger
 import CloudFoundryEnv
 import KituraRequest
 import KituraBot
+import KituraBotMessageStore
 import KituraBotFacebookMessenger
 import KituraBotMobileAPIWithBluemixPush
 //import CloudFoundryDeploymentTracker
@@ -47,10 +40,10 @@ router.all("/", middleware: StaticFileServer())
 //let openWhiskMessage = ["channelName" : channelName, "senderId" : senderId, "message" : message]
 //whisk.fireTrigger(name: "xx", package: "xx", namespace: "xx", parameters: openWhiskMessage, callback: {(reply, error) -> Void in {}
 // OpenWhisk chain will use a specific KituraBotPushAction to send back to KituraBot in a asyncronous way the response message to send back to client
-func callDecoupledAsyncBotLogic(channelName: String, senderId: String, message: String, context: [String: Any]?) {
+func callDecoupledAsyncBotLogic(message: KituraBotMessage) {
     //3.b [Optional] Simulate a decoupled Asyncronous BOT logic
     DispatchQueue.global(qos: .background).async {
-        let responseMessageAsync = "ECHO Async: \(message)"
+        let responseMessageAsync = "ECHO Async: \(message.messageText)"
         
         /// JSON Payload
         /// {
@@ -62,13 +55,13 @@ func callDecoupledAsyncBotLogic(channelName: String, senderId: String, message: 
         /// }
         
         var jsonPayload:[String : Any] = [
-                        "channel" : channelName,
-                        "recipientId" : senderId,
+                        "channel" : message.user.channel,
+                        "recipientId" : message.user.userId,
                         "messageText" : responseMessageAsync,
                         "securityToken" : Configuration.pushApiSecurityToken
         ]
         
-        if let realContext = context {
+        if let realContext = message.context {
             jsonPayload["context"] = realContext
         }
         
@@ -89,29 +82,32 @@ func callDecoupledAsyncBotLogic(channelName: String, senderId: String, message: 
 }
 
 
+//0. Use sample logger for message store
+let messageStore = KituraBotMessageStoreInMemory()
+
 
 //1. Instanciate KituraBot and implement BOT logic
-let bot = KituraBot(router: router) { (channelName: String, senderId: String, message: String, context: [String: Any]?) -> (responseMessage: String, context: [String: Any]?)? in
+let bot = KituraBot(router: router, messageStore: messageStore, getPath: Configuration.getMessageApiPath, getToken: Configuration.getMessageApiSecurityToken) { (message: KituraBotMessage) -> KituraBotMessageResponse? in
     
     //1.a Implement classic Syncronous BOT logic implementation with Watson Conversation, api.ai, wit.ai or other tools
-    let responseMessage = "ECHO Sync: \(message)"
+    let responseMessage = "ECHO Sync: \(message.messageText)"
     
     //3.b [Optional] Manage classic Asyncronous BOT logic implementation decoupling for example with OpenWhisk
-    callDecoupledAsyncBotLogic(channelName: channelName, senderId: senderId, message: message, context: context)
+    callDecoupledAsyncBotLogic(message: message)
 
     
     //1.b return immediate Syncronouse response or return nil to do not send back any Syncronous response message
-    return (responseMessage, context)
+    return KituraBotMessageResponse(messageText: responseMessage, context: message.context)
 }
         
         
 //3.b [Optional] Activate Async Push Back cross channel functionality
-bot.exposeAsyncPush(securityToken: Configuration.pushApiSecurityToken, webHookPath: Configuration.pushApiPath) { (channelName: String, senderId: String, message: String, context: [String: Any]?) -> (channelName: String, message: String, context: [String: Any]?)? in
+bot.exposeAsyncPush(securityToken: Configuration.pushApiSecurityToken, webHookPath: Configuration.pushApiPath) { (message: KituraBotMessage) -> (channelName: String, message: KituraBotMessageResponse)? in
     //The implementation of exposePushBack method in KituraBot class will automatically expose REST interface to be called by the Async logic (i.e. KituraBotPushAction)
     
-    var responseChannelName = channelName
-    var responseMessage = message
-    var responseContext = context
+//    var responseChannelName = message.user.channel
+//    var responseMessage = message.messageText
+//    var responseContext = message.context
     
     //3.c [Optional] implement optional logic to eventually notify back the user on different channels
     //responseChannelName = "..."
@@ -121,7 +117,7 @@ bot.exposeAsyncPush(securityToken: Configuration.pushApiSecurityToken, webHookPa
     //responseContext = [:]
     
     //3.e return new channel and message or return nil to use the passed channel and message
-    //return (responseChannelName, responseMessage, responseContext)
+    //return (responseChannelName,  KituraBotMessageResponse(messageText: responseMessage, context: responseContext))
     
     return nil
 }
@@ -154,7 +150,3 @@ do {
 } catch CloudFoundryEnvError.InvalidValue {
   Log.error("Oops... something went wrong. Server did not start!")
 }
-
-
-
-
