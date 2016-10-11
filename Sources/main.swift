@@ -42,7 +42,7 @@ router.all("/", middleware: StaticFileServer())
 // OpenWhisk chain will use a specific KituraBotPushAction to send back to KituraBot in a asyncronous way the response message to send back to client
 func callDecoupledAsyncBotLogic(message: KituraBotMessage) {
     //3.b [Optional] Simulate a decoupled Asyncronous BOT logic
-    DispatchQueue.global(qos: .background).async {
+    //DispatchQueue.global(qos: .background).async {
         let responseMessageAsync = "ECHO Async: \(message.messageText)"
         
         /// JSON Payload
@@ -78,7 +78,7 @@ func callDecoupledAsyncBotLogic(message: KituraBotMessage) {
                                     print("Successfully sent async push back.")
                                 }
                               })
-    }
+    //}
 }
 
 
