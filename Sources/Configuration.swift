@@ -1,18 +1,10 @@
-/**
- * Copyright IBM Corporation 2016
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- **/
+//
+//  Configuration.swift
+//  KituraBot Sample Frontend
+//
+//  Created by Jacopo Mangiavacchi on 9/27/16.
+//
+//
 
 /**
  * Configuration settings for integration services
@@ -34,20 +26,25 @@ public struct Configuration {
     static let pushApiPath = "/botpushapi"
 
     // Token to use for verifing access to the Async Push Notification API
-    static let pushApiSecurityToken = "xxx"
+    static let pushApiSecurityToken = "1234"
     
     // Async push back path
     static let mobileApiPath = "/mobileapi"
 
     // Token to use for verifing access to the Mobile API
-    static let mobileApiSecurityToken = "xxx"
+    static let mobileApiSecurityToken = "1234"
 
+    // Get message API path
+    static let getMessageApiPath = "/message"
+    
+    // Token to use for verifing access to the Get message API
+    static let getMessageApiSecurityToken = "1234"
+    
     // Facebook Messenger Channel Name
     static let facebookChanelName = "FacebookEcho"
 
     // Mobile API Channel Name
     static let mobileAPIChanelName = "MobileAppEcho"
-
 
     // Push Bluemix Region
     static let mobileApiPushBluemixRegion = "ng.bluemix.net"
@@ -58,3 +55,4 @@ public struct Configuration {
     // Push Bluemix AppSecret
     static let mobileApiPushBluemixAppSecret = "xxx"
 }
+
