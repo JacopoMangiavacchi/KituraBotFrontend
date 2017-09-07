@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.1 (swift-3.1.1-RELEASE)"
+options: "a5f19de3bd4b61a45c66cef6f433b36b"
+build_time: [558067904, 147730000]
+inputs:
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/Swift-cfenv.git--8186875312477280204/Sources/CloudFoundryEnv/AppEnv.swift": [558067885, 0]
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/Swift-cfenv.git--8186875312477280204/Sources/CloudFoundryEnv/JSONUtils.swift": [558067885, 0]
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/Swift-cfenv.git--8186875312477280204/Sources/CloudFoundryEnv/Service.swift": [558067885, 0]
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/Swift-cfenv.git--8186875312477280204/Sources/CloudFoundryEnv/CollectionUtils.swift": [558067885, 0]
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/Swift-cfenv.git--8186875312477280204/Sources/CloudFoundryEnv/DateUtils.swift": [558067885, 0]
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/Swift-cfenv.git--8186875312477280204/Sources/CloudFoundryEnv/App.swift": [558067885, 0]

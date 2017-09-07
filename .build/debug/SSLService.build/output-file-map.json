@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SSLService.build/master.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/BlueSSLService.git--6577639804771281610/Sources/SSLService.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SSLService.build/SSLService.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SSLService.build/SSLService.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SSLService.build/SSLService~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SSLService.build/SSLService.swiftdeps"
+  }
+}

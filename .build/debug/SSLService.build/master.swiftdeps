@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swift-3.1.1-RELEASE)"
+options: "f6843843a0667fd000e06f5456a41726"
+build_time: [558067905, 55223000]
+inputs:
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/BlueSSLService.git--6577639804771281610/Sources/SSLService.swift": [558067886, 0]

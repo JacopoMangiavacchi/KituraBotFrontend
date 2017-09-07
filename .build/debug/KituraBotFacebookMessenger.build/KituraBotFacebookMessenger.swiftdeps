@@ -1,0 +1,454 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KituraBotFacebookMessenger"
+provides-nominal:
+- "C26KituraBotFacebookMessenger26KituraBotFacebookMessenger"
+provides-member:
+- ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private ">"
+- "AssignmentPrecedence"
+- "BotInternalMessageNotificationHandler"
+- !private "Data"
+- !private "Dictionary"
+- !private "JSON"
+- !private "JSONEncoding"
+- !private "KituraBotContext"
+- "KituraBotFacebookMessenger"
+- "KituraBotMessage"
+- "KituraBotProtocol"
+- !private "KituraBotUser"
+- !private "KituraRequest"
+- !private "Log"
+- "Router"
+- !private "RouterRequest"
+- !private "RouterResponse"
+- "String"
+- !private "StringLiteralType"
+- !private "Void"
+- !private "print"
+- !private "~="
+depends-member:
+- !private ["Ps9AnyObject", "Data"]
+- !private ["Ps9AnyObject", "JSON"]
+- !private ["Ps9AnyObject", "JSONEncoding"]
+- !private ["Ps9AnyObject", "KituraBotMessage"]
+- !private ["Ps9AnyObject", "KituraBotUser"]
+- !private ["Ps9AnyObject", "KituraRequest"]
+- !private ["Ps9AnyObject", "Log"]
+- !private ["Ps9AnyObject", "appSecret"]
+- !private ["Ps9AnyObject", "botProtocolMessageNotificationHandler"]
+- !private ["Ps9AnyObject", "callSendAPI"]
+- !private ["Ps9AnyObject", "channelName"]
+- ["Ps9AnyObject", "configure"]
+- !private ["Ps9AnyObject", "debug"]
+- !private ["Ps9AnyObject", "end"]
+- !private ["Ps9AnyObject", "get"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "pageAccessToken"]
+- !private ["Ps9AnyObject", "post"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "processRequestHandler"]
+- !private ["Ps9AnyObject", "queryParameters"]
+- !private ["Ps9AnyObject", "read"]
+- !private ["Ps9AnyObject", "receivedAuthentication"]
+- !private ["Ps9AnyObject", "receivedDeliveryConfirmation"]
+- !private ["Ps9AnyObject", "receivedMessage"]
+- !private ["Ps9AnyObject", "receivedPostback"]
+- !private ["Ps9AnyObject", "request"]
+- !private ["Ps9AnyObject", "response"]
+- !private ["Ps9AnyObject", "send"]
+- !private ["Ps9AnyObject", "sendButtonMessage"]
+- !private ["Ps9AnyObject", "sendFBTextMessage"]
+- !private ["Ps9AnyObject", "sendGenericMessage"]
+- !private ["Ps9AnyObject", "sendImageMessage"]
+- ["Ps9AnyObject", "sendMessage"]
+- !private ["Ps9AnyObject", "sendReceiptMessage"]
+- !private ["Ps9AnyObject", "status"]
+- !private ["Ps9AnyObject", "validateTokenHandler"]
+- !private ["Ps9AnyObject", "validationToken"]
+- !private ["Ps9AnyObject", "webHookPath"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps10Collection", "exists"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "int"]
+- !private ["Ps10Collection", "string"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "exists"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "int"]
+- !private ["Ps10Comparable", "string"]
+- !private ["Ps10Comparable", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "debugDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "debugDescription"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["V10Foundation4Data", "init"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["P13KituraRequest8Encoding", "default"]
+- !private ["Ps9Equatable", "OK"]
+- !private ["Ps9Equatable", "POST"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "exists"]
+- !private ["Ps9Equatable", "forbidden"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "int"]
+- !private ["Ps9Equatable", "request"]
+- !private ["Ps9Equatable", "string"]
+- !private ["Ps9Equatable", "subscript"]
+- !private ["Ps25ExpressibleByArrayLiteral", "exists"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "int"]
+- !private ["Ps25ExpressibleByArrayLiteral", "string"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "exists"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "int"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "string"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "subscript"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "exists"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "int"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "string"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "exists"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "int"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "string"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "subscript"]
+- !private ["Ps25ExpressibleByFloatLiteral", "exists"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "int"]
+- !private ["Ps25ExpressibleByFloatLiteral", "string"]
+- !private ["Ps25ExpressibleByFloatLiteral", "subscript"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "exists"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "int"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "string"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "subscript"]
+- !private ["Ps23ExpressibleByNilLiteral", "debugDescription"]
+- !private ["Ps23ExpressibleByNilLiteral", "exists"]
+- !private ["Ps23ExpressibleByNilLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "int"]
+- !private ["Ps23ExpressibleByNilLiteral", "string"]
+- !private ["Ps23ExpressibleByNilLiteral", "subscript"]
+- !private ["Ps26ExpressibleByStringLiteral", "exists"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "int"]
+- !private ["Ps26ExpressibleByStringLiteral", "string"]
+- !private ["Ps26ExpressibleByStringLiteral", "subscript"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "exists"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "int"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "string"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "subscript"]
+- !private ["O9KituraNet14HTTPStatusCode", "OK"]
+- !private ["O9KituraNet14HTTPStatusCode", "forbidden"]
+- !private ["Ps8Hashable", "OK"]
+- !private ["Ps8Hashable", "POST"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "forbidden"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "request"]
+- !private ["V10SwiftyJSON4JSON", "exists"]
+- !private ["V10SwiftyJSON4JSON", "init"]
+- !private ["V10SwiftyJSON4JSON", "int"]
+- !private ["V10SwiftyJSON4JSON", "string"]
+- !private ["V10SwiftyJSON4JSON", "subscript"]
+- !private ["V13KituraRequest12JSONEncoding", "default"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "init"]
+- ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "BotInternalMessageNotificationHandler"]
+- !private ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "Data"]
+- !private ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "JSON"]
+- !private ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "JSONEncoding"]
+- !private ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "KituraBotContext"]
+- ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "KituraBotMessage"]
+- !private ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "KituraBotUser"]
+- !private ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "KituraRequest"]
+- !private ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "Log"]
+- ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "Router"]
+- !private ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "RouterRequest"]
+- !private ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "RouterResponse"]
+- ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "String"]
+- !private ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "Void"]
+- !private ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "appSecret"]
+- ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "botProtocolMessageNotificationHandler"]
+- !private ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "callSendAPI"]
+- ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "channelName"]
+- ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "configure"]
+- ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "deinit"]
+- ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "init"]
+- ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "pageAccessToken"]
+- !private ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "print"]
+- !private ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "processRequestHandler"]
+- !private ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "receivedAuthentication"]
+- !private ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "receivedDeliveryConfirmation"]
+- !private ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "receivedMessage"]
+- !private ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "receivedPostback"]
+- !private ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "sendButtonMessage"]
+- !private ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "sendFBTextMessage"]
+- !private ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "sendGenericMessage"]
+- !private ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "sendImageMessage"]
+- ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "sendMessage"]
+- !private ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "sendReceiptMessage"]
+- !private ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "validateTokenHandler"]
+- !private ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "validationToken"]
+- ["C26KituraBotFacebookMessenger26KituraBotFacebookMessenger", "webHookPath"]
+- !private ["V9KituraBot16KituraBotMessage", "context"]
+- !private ["V9KituraBot16KituraBotMessage", "init"]
+- !private ["V9KituraBot16KituraBotMessage", "messageText"]
+- !private ["V9KituraBot16KituraBotMessage", "user"]
+- !private ["V9KituraBot24KituraBotMessageResponse", "messageText"]
+- !private ["O9KituraBot20KituraBotMessageType", "request"]
+- !private ["P9KituraBot17KituraBotProtocol", "Data"]
+- !private ["P9KituraBot17KituraBotProtocol", "JSON"]
+- !private ["P9KituraBot17KituraBotProtocol", "JSONEncoding"]
+- !private ["P9KituraBot17KituraBotProtocol", "KituraBotMessage"]
+- !private ["P9KituraBot17KituraBotProtocol", "KituraBotUser"]
+- !private ["P9KituraBot17KituraBotProtocol", "KituraRequest"]
+- !private ["P9KituraBot17KituraBotProtocol", "Log"]
+- !private ["P9KituraBot17KituraBotProtocol", "appSecret"]
+- !private ["P9KituraBot17KituraBotProtocol", "botProtocolMessageNotificationHandler"]
+- !private ["P9KituraBot17KituraBotProtocol", "callSendAPI"]
+- !private ["P9KituraBot17KituraBotProtocol", "channelName"]
+- ["P9KituraBot17KituraBotProtocol", "configure"]
+- !private ["P9KituraBot17KituraBotProtocol", "pageAccessToken"]
+- !private ["P9KituraBot17KituraBotProtocol", "print"]
+- !private ["P9KituraBot17KituraBotProtocol", "processRequestHandler"]
+- !private ["P9KituraBot17KituraBotProtocol", "receivedAuthentication"]
+- !private ["P9KituraBot17KituraBotProtocol", "receivedDeliveryConfirmation"]
+- !private ["P9KituraBot17KituraBotProtocol", "receivedMessage"]
+- !private ["P9KituraBot17KituraBotProtocol", "receivedPostback"]
+- !private ["P9KituraBot17KituraBotProtocol", "sendButtonMessage"]
+- !private ["P9KituraBot17KituraBotProtocol", "sendFBTextMessage"]
+- !private ["P9KituraBot17KituraBotProtocol", "sendGenericMessage"]
+- !private ["P9KituraBot17KituraBotProtocol", "sendImageMessage"]
+- ["P9KituraBot17KituraBotProtocol", "sendMessage"]
+- !private ["P9KituraBot17KituraBotProtocol", "sendReceiptMessage"]
+- !private ["P9KituraBot17KituraBotProtocol", "validateTokenHandler"]
+- !private ["P9KituraBot17KituraBotProtocol", "validationToken"]
+- !private ["P9KituraBot17KituraBotProtocol", "webHookPath"]
+- ["P9KituraBot17KituraBotProtocol", ""]
+- !private ["V9KituraBot13KituraBotUser", "init"]
+- !private ["V9KituraBot13KituraBotUser", "userId"]
+- !private ["C13KituraRequest13KituraRequest", "request"]
+- !private ["C9LoggerAPI3Log", "debug"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["OC13KituraRequest7Request6Method", "POST"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Sq", "debugDescription"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps16RawRepresentable", "OK"]
+- !private ["Ps16RawRepresentable", "POST"]
+- !private ["Ps16RawRepresentable", "exists"]
+- !private ["Ps16RawRepresentable", "forbidden"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "int"]
+- !private ["Ps16RawRepresentable", "request"]
+- !private ["Ps16RawRepresentable", "string"]
+- !private ["Ps16RawRepresentable", "subscript"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["C13KituraRequest7Request", "response"]
+- !private ["C6Kitura6Router", "get"]
+- !private ["C6Kitura6Router", "post"]
+- !private ["P6Kitura16RouterMiddleware", "get"]
+- !private ["P6Kitura16RouterMiddleware", "post"]
+- !private ["C6Kitura13RouterRequest", "queryParameters"]
+- !private ["C6Kitura13RouterRequest", "read"]
+- !private ["C6Kitura14RouterResponse", "end"]
+- !private ["C6Kitura14RouterResponse", "send"]
+- !private ["C6Kitura14RouterResponse", "status"]
+- !private ["Ps8Sequence", "exists"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "int"]
+- !private ["Ps8Sequence", "string"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["P9KituraNet14ServerDelegate", "get"]
+- !private ["P9KituraNet14ServerDelegate", "post"]
+- !private ["Vs5Slice", "exists"]
+- !private ["Vs5Slice", "int"]
+- !private ["Vs5Slice", "string"]
+- !private ["Vs5Slice", "subscript"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "OK"]
+- !private ["Ps9_Hashable", "POST"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "forbidden"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "request"]
+- !private ["Ps10_Indexable", "exists"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "int"]
+- !private ["Ps10_Indexable", "string"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "exists"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "int"]
+- !private ["Ps14_IndexableBase", "string"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "debugDescription"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "V10Foundation4Data"
+- !private "Vs10Dictionary"
+- !private "P13KituraRequest8Encoding"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "O9KituraNet14HTTPStatusCode"
+- !private "Ps8Hashable"
+- !private "V10SwiftyJSON4JSON"
+- !private "V13KituraRequest12JSONEncoding"
+- !private "P10SwiftyJSON17JSONSubscriptType"
+- "C26KituraBotFacebookMessenger26KituraBotFacebookMessenger"
+- !private "V9KituraBot16KituraBotMessage"
+- !private "V9KituraBot24KituraBotMessageResponse"
+- !private "O9KituraBot20KituraBotMessageType"
+- "P9KituraBot17KituraBotProtocol"
+- !private "V9KituraBot13KituraBotUser"
+- !private "C13KituraRequest13KituraRequest"
+- !private "C9LoggerAPI3Log"
+- !private "Ps25LosslessStringConvertible"
+- !private "OC13KituraRequest7Request6Method"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "C13KituraRequest7Request"
+- !private "C6Kitura6Router"
+- !private "P6Kitura16RouterMiddleware"
+- !private "C6Kitura13RouterRequest"
+- !private "C6Kitura14RouterResponse"
+- !private "Ps8Sequence"
+- !private "P9KituraNet14ServerDelegate"
+- !private "Vs5Slice"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/LoggerAPI.swiftmodule"
+- "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SwiftyJSON.swiftmodule"
+- "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/Kitura.swiftmodule"
+- "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SSLService.swiftmodule"
+- "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraTemplateEngine.swiftmodule"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraNet.swiftmodule"
+- "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/Socket.swiftmodule"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraBot.swiftmodule"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.swiftmodule"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/SwiftStddef.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/AssertionReporting.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/SwiftStdbool.h"
+- "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/Kitura-net.git--7410958935072501107/Sources/CHTTPParser/include/CHTTPParser.h"
+- "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/Kitura-net.git--7410958935072501107/Sources/CHTTPParser/include/http_parser.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/RuntimeStubs.h"
+- "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/Kitura-net.git--7410958935072501107/Sources/CHTTPParser/include/utils.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/LibcShims.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/UnicodeShims.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/RuntimeShims.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/FoundationShims.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/ObjectiveCOverlayShims.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/DispatchOverlayShims.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/GlobalObjects.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/HeapObject.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/SwiftStdint.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/RefCount.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/Visibility.h"
+- "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/CCurl.git-8026296523752779197/module.modulemap"
+- "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/CHTTPParser.build/module.modulemap"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/module.modulemap"
+interface-hash: "20b1a6e2d08f7977da089224e9e07b55"

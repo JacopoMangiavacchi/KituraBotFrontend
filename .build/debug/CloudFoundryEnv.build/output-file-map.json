@@ -1,0 +1,41 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/CloudFoundryEnv.build/master.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/Swift-cfenv.git--8186875312477280204/Sources/CloudFoundryEnv/AppEnv.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/CloudFoundryEnv.build/AppEnv.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/CloudFoundryEnv.build/AppEnv.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/CloudFoundryEnv.build/AppEnv~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/CloudFoundryEnv.build/AppEnv.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/Swift-cfenv.git--8186875312477280204/Sources/CloudFoundryEnv/JSONUtils.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/CloudFoundryEnv.build/JSONUtils.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/CloudFoundryEnv.build/JSONUtils.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/CloudFoundryEnv.build/JSONUtils~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/CloudFoundryEnv.build/JSONUtils.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/Swift-cfenv.git--8186875312477280204/Sources/CloudFoundryEnv/Service.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/CloudFoundryEnv.build/Service.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/CloudFoundryEnv.build/Service.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/CloudFoundryEnv.build/Service~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/CloudFoundryEnv.build/Service.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/Swift-cfenv.git--8186875312477280204/Sources/CloudFoundryEnv/CollectionUtils.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/CloudFoundryEnv.build/CollectionUtils.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/CloudFoundryEnv.build/CollectionUtils.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/CloudFoundryEnv.build/CollectionUtils~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/CloudFoundryEnv.build/CollectionUtils.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/Swift-cfenv.git--8186875312477280204/Sources/CloudFoundryEnv/DateUtils.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/CloudFoundryEnv.build/DateUtils.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/CloudFoundryEnv.build/DateUtils.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/CloudFoundryEnv.build/DateUtils~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/CloudFoundryEnv.build/DateUtils.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/Swift-cfenv.git--8186875312477280204/Sources/CloudFoundryEnv/App.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/CloudFoundryEnv.build/App.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/CloudFoundryEnv.build/App.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/CloudFoundryEnv.build/App~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/CloudFoundryEnv.build/App.swiftdeps"
+  }
+}

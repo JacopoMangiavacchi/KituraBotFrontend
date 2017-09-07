@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.1 (swift-3.1.1-RELEASE)"
+options: "5b3ef7c7d074a2b3665ea133d2b4a01c"
+build_time: [558067899, 952577000]
+inputs:
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/Configuration.git--2683441109504822782/Sources/Configuration/Utilities.swift": [558067886, 0]
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/Configuration.git--2683441109504822782/Sources/Configuration/ConfigurationNode.swift": [558067886, 0]
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/Configuration.git--2683441109504822782/Sources/Configuration/ConfigurationManager.swift": [558067886, 0]
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/Configuration.git--2683441109504822782/Sources/Configuration/Deserializer.swift": [558067886, 0]
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/Configuration.git--2683441109504822782/Sources/Configuration/Deserializers/JSONDeserializer.swift": [558067886, 0]
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/Configuration.git--2683441109504822782/Sources/Configuration/Deserializers/PLISTDeserializer.swift": [558067886, 0]

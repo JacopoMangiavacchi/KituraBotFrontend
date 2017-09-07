@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swift-3.1.1-RELEASE)"
+options: "f96214b22a04245aebf370e5dfff7379"
+build_time: [558067909, 538359000]
+inputs:
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/bluemix-simple-http-client-swift.git--4354725089908211666/Sources/HttpResource.swift": [558067886, 0]
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/bluemix-simple-http-client-swift.git--4354725089908211666/Sources/HttpClient.swift": [558067886, 0]
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/bluemix-simple-http-client-swift.git--4354725089908211666/Sources/HttpError.swift": [558067886, 0]

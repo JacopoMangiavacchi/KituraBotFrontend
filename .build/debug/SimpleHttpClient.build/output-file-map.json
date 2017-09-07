@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SimpleHttpClient.build/master.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/bluemix-simple-http-client-swift.git--4354725089908211666/Sources/HttpResource.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SimpleHttpClient.build/HttpResource.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SimpleHttpClient.build/HttpResource.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SimpleHttpClient.build/HttpResource~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SimpleHttpClient.build/HttpResource.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/bluemix-simple-http-client-swift.git--4354725089908211666/Sources/HttpClient.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SimpleHttpClient.build/HttpClient.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SimpleHttpClient.build/HttpClient.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SimpleHttpClient.build/HttpClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SimpleHttpClient.build/HttpClient.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/bluemix-simple-http-client-swift.git--4354725089908211666/Sources/HttpError.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SimpleHttpClient.build/HttpError.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SimpleHttpClient.build/HttpError.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SimpleHttpClient.build/HttpError~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SimpleHttpClient.build/HttpError.swiftdeps"
+  }
+}

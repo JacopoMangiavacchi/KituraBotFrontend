@@ -1,0 +1,416 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Notification"
+- "TargetPlatform"
+- "ApnsType"
+- "GcmPriority"
+provides-nominal:
+- "V24BluemixPushNotifications12Notification"
+- "VV24BluemixPushNotifications12Notification7Message"
+- "VV24BluemixPushNotifications12Notification6Target"
+- "VV24BluemixPushNotifications12Notification8Settings"
+- "VVV24BluemixPushNotifications12Notification8Settings4Apns"
+- "VVV24BluemixPushNotifications12Notification8Settings3Gcm"
+- "O24BluemixPushNotifications14TargetPlatform"
+- "O24BluemixPushNotifications8ApnsType"
+- "O24BluemixPushNotifications11GcmPriority"
+provides-member:
+- ["V24BluemixPushNotifications12Notification", ""]
+- ["VV24BluemixPushNotifications12Notification7Message", ""]
+- ["VV24BluemixPushNotifications12Notification6Target", ""]
+- ["VV24BluemixPushNotifications12Notification8Settings", ""]
+- ["VVV24BluemixPushNotifications12Notification8Settings4Apns", ""]
+- ["VVV24BluemixPushNotifications12Notification8Settings3Gcm", ""]
+- ["O24BluemixPushNotifications14TargetPlatform", ""]
+- ["O24BluemixPushNotifications8ApnsType", ""]
+- ["O24BluemixPushNotifications11GcmPriority", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "=="
+- "ApnsType"
+- "AssignmentPrecedence"
+- "Bool"
+- "Double"
+- "GcmPriority"
+- "Int"
+- "JSON"
+- "Notification"
+- "String"
+- "StringLiteralType"
+- "TargetPlatform"
+- "TernaryPrecedence"
+- "UnicodeScalarType"
+- !private "~="
+depends-member:
+- ["Ps9AnyObject", "init"]
+- ["VVV24BluemixPushNotifications12Notification8Settings4Apns", "ApnsType"]
+- ["VVV24BluemixPushNotifications12Notification8Settings4Apns", "Int"]
+- ["VVV24BluemixPushNotifications12Notification8Settings4Apns", "JSON"]
+- ["VVV24BluemixPushNotifications12Notification8Settings4Apns", "String"]
+- ["VVV24BluemixPushNotifications12Notification8Settings4Apns", "badge"]
+- ["VVV24BluemixPushNotifications12Notification8Settings4Apns", "category"]
+- ["VVV24BluemixPushNotifications12Notification8Settings4Apns", "init"]
+- ["VVV24BluemixPushNotifications12Notification8Settings4Apns", "iosActionKey"]
+- ["VVV24BluemixPushNotifications12Notification8Settings4Apns", "jsonFormat"]
+- ["VVV24BluemixPushNotifications12Notification8Settings4Apns", "payload"]
+- ["VVV24BluemixPushNotifications12Notification8Settings4Apns", "sound"]
+- ["VVV24BluemixPushNotifications12Notification8Settings4Apns", "type"]
+- ["O24BluemixPushNotifications8ApnsType", "DEFAULT"]
+- ["O24BluemixPushNotifications8ApnsType", "MIXED"]
+- ["O24BluemixPushNotifications8ApnsType", "RawValue"]
+- ["O24BluemixPushNotifications8ApnsType", "SILENT"]
+- ["O24BluemixPushNotifications8ApnsType", "_toAnyHashable"]
+- ["O24BluemixPushNotifications8ApnsType", "deinit"]
+- ["O24BluemixPushNotifications8ApnsType", "hashValue"]
+- ["O24BluemixPushNotifications8ApnsType", "init"]
+- ["O24BluemixPushNotifications8ApnsType", "rawValue"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "map"]
+- !private ["Ps23BidirectionalCollection", "isEmpty"]
+- !private ["Ps23BidirectionalCollection", "map"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isEmpty"]
+- !private ["Ps7CVarArg", "map"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "isEmpty"]
+- !private ["Ps10Collection", "map"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "isEmpty"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Vs10Dictionary", "isEmpty"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "isEmpty"]
+- !private ["Ps25ExpressibleByArrayLiteral", "map"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "isEmpty"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["VVV24BluemixPushNotifications12Notification8Settings3Gcm", "Bool"]
+- ["VVV24BluemixPushNotifications12Notification8Settings3Gcm", "Double"]
+- ["VVV24BluemixPushNotifications12Notification8Settings3Gcm", "GcmPriority"]
+- ["VVV24BluemixPushNotifications12Notification8Settings3Gcm", "JSON"]
+- ["VVV24BluemixPushNotifications12Notification8Settings3Gcm", "String"]
+- ["VVV24BluemixPushNotifications12Notification8Settings3Gcm", "collapseKey"]
+- ["VVV24BluemixPushNotifications12Notification8Settings3Gcm", "delayWhileIdle"]
+- ["VVV24BluemixPushNotifications12Notification8Settings3Gcm", "init"]
+- ["VVV24BluemixPushNotifications12Notification8Settings3Gcm", "jsonFormat"]
+- ["VVV24BluemixPushNotifications12Notification8Settings3Gcm", "payload"]
+- ["VVV24BluemixPushNotifications12Notification8Settings3Gcm", "priority"]
+- ["VVV24BluemixPushNotifications12Notification8Settings3Gcm", "sound"]
+- ["VVV24BluemixPushNotifications12Notification8Settings3Gcm", "timeToLive"]
+- ["O24BluemixPushNotifications11GcmPriority", "DEFAULT"]
+- ["O24BluemixPushNotifications11GcmPriority", "HIGH"]
+- ["O24BluemixPushNotifications11GcmPriority", "LOW"]
+- ["O24BluemixPushNotifications11GcmPriority", "MAX"]
+- ["O24BluemixPushNotifications11GcmPriority", "MIN"]
+- ["O24BluemixPushNotifications11GcmPriority", "RawValue"]
+- ["O24BluemixPushNotifications11GcmPriority", "_toAnyHashable"]
+- ["O24BluemixPushNotifications11GcmPriority", "deinit"]
+- ["O24BluemixPushNotifications11GcmPriority", "hashValue"]
+- ["O24BluemixPushNotifications11GcmPriority", "init"]
+- ["O24BluemixPushNotifications11GcmPriority", "rawValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "rawValue"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["V10SwiftyJSON4JSON", "init"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "hashValue"]
+- ["P10SwiftyJSON17JSONSubscriptType", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["VV24BluemixPushNotifications12Notification7Message", "JSON"]
+- ["VV24BluemixPushNotifications12Notification7Message", "String"]
+- ["VV24BluemixPushNotifications12Notification7Message", "alert"]
+- ["VV24BluemixPushNotifications12Notification7Message", "init"]
+- ["VV24BluemixPushNotifications12Notification7Message", "jsonFormat"]
+- ["VV24BluemixPushNotifications12Notification7Message", "url"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "isEmpty"]
+- !private ["Ps17MutableCollection", "map"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["V24BluemixPushNotifications12Notification", "ApnsType"]
+- ["V24BluemixPushNotifications12Notification", "Bool"]
+- ["V24BluemixPushNotifications12Notification", "Double"]
+- ["V24BluemixPushNotifications12Notification", "GcmPriority"]
+- ["V24BluemixPushNotifications12Notification", "Int"]
+- ["V24BluemixPushNotifications12Notification", "JSON"]
+- ["V24BluemixPushNotifications12Notification", "Message"]
+- ["V24BluemixPushNotifications12Notification", "Settings"]
+- ["V24BluemixPushNotifications12Notification", "String"]
+- ["V24BluemixPushNotifications12Notification", "Target"]
+- ["V24BluemixPushNotifications12Notification", "TargetPlatform"]
+- ["V24BluemixPushNotifications12Notification", "init"]
+- ["V24BluemixPushNotifications12Notification", "jsonFormat"]
+- ["V24BluemixPushNotifications12Notification", "message"]
+- ["V24BluemixPushNotifications12Notification", "settings"]
+- ["V24BluemixPushNotifications12Notification", "target"]
+- !private ["Ps22RandomAccessCollection", "isEmpty"]
+- !private ["Ps22RandomAccessCollection", "map"]
+- !private ["Ps26RangeReplaceableCollection", "isEmpty"]
+- !private ["Ps26RangeReplaceableCollection", "map"]
+- ["Ps16RawRepresentable", "_toAnyHashable"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", ""]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "isEmpty"]
+- !private ["Ps8Sequence", "map"]
+- !private ["Ps8Sequence", "subscript"]
+- ["VV24BluemixPushNotifications12Notification8Settings", "Apns"]
+- ["VV24BluemixPushNotifications12Notification8Settings", "ApnsType"]
+- ["VV24BluemixPushNotifications12Notification8Settings", "Bool"]
+- ["VV24BluemixPushNotifications12Notification8Settings", "Double"]
+- ["VV24BluemixPushNotifications12Notification8Settings", "Gcm"]
+- ["VV24BluemixPushNotifications12Notification8Settings", "GcmPriority"]
+- ["VV24BluemixPushNotifications12Notification8Settings", "Int"]
+- ["VV24BluemixPushNotifications12Notification8Settings", "JSON"]
+- ["VV24BluemixPushNotifications12Notification8Settings", "String"]
+- ["VV24BluemixPushNotifications12Notification8Settings", "apns"]
+- ["VV24BluemixPushNotifications12Notification8Settings", "gcm"]
+- ["VV24BluemixPushNotifications12Notification8Settings", "init"]
+- ["VV24BluemixPushNotifications12Notification8Settings", "jsonFormat"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "init"]
+- ["VV24BluemixPushNotifications12Notification6Target", "JSON"]
+- ["VV24BluemixPushNotifications12Notification6Target", "String"]
+- ["VV24BluemixPushNotifications12Notification6Target", "TargetPlatform"]
+- ["VV24BluemixPushNotifications12Notification6Target", "deviceIds"]
+- ["VV24BluemixPushNotifications12Notification6Target", "init"]
+- ["VV24BluemixPushNotifications12Notification6Target", "jsonFormat"]
+- ["VV24BluemixPushNotifications12Notification6Target", "platforms"]
+- ["VV24BluemixPushNotifications12Notification6Target", "tagNames"]
+- ["VV24BluemixPushNotifications12Notification6Target", "userIds"]
+- ["O24BluemixPushNotifications14TargetPlatform", "Apple"]
+- ["O24BluemixPushNotifications14TargetPlatform", "Google"]
+- ["O24BluemixPushNotifications14TargetPlatform", "RawValue"]
+- ["O24BluemixPushNotifications14TargetPlatform", "_toAnyHashable"]
+- ["O24BluemixPushNotifications14TargetPlatform", "deinit"]
+- ["O24BluemixPushNotifications14TargetPlatform", "hashValue"]
+- ["O24BluemixPushNotifications14TargetPlatform", "init"]
+- ["O24BluemixPushNotifications14TargetPlatform", "rawValue"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps14_ArrayProtocol", "isEmpty"]
+- !private ["Ps14_ArrayProtocol", "map"]
+- !private ["Ps23_BidirectionalIndexable", "isEmpty"]
+- !private ["Ps23_BidirectionalIndexable", "map"]
+- !private ["Ps24_DestructorSafeContainer", "isEmpty"]
+- !private ["Ps24_DestructorSafeContainer", "map"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "rawValue"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "isEmpty"]
+- !private ["Ps10_Indexable", "map"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "isEmpty"]
+- !private ["Ps14_IndexableBase", "map"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps17_MutableIndexable", "isEmpty"]
+- !private ["Ps17_MutableIndexable", "map"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
+- !private ["Ps21_ObjectiveCBridgeable", "map"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "isEmpty"]
+- !private ["Ps22_RandomAccessIndexable", "map"]
+- !private ["Ps26_RangeReplaceableIndexable", "isEmpty"]
+- !private ["Ps26_RangeReplaceableIndexable", "map"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- "VVV24BluemixPushNotifications12Notification8Settings4Apns"
+- "O24BluemixPushNotifications8ApnsType"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "VVV24BluemixPushNotifications12Notification8Settings3Gcm"
+- "O24BluemixPushNotifications11GcmPriority"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "V10SwiftyJSON4JSON"
+- "P10SwiftyJSON17JSONSubscriptType"
+- "Ps25LosslessStringConvertible"
+- "VV24BluemixPushNotifications12Notification7Message"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "V24BluemixPushNotifications12Notification"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- "VV24BluemixPushNotifications12Notification8Settings"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "SS"
+- "VV24BluemixPushNotifications12Notification6Target"
+- "O24BluemixPushNotifications14TargetPlatform"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/LoggerAPI.swiftmodule"
+- "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SwiftyJSON.swiftmodule"
+- "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SSLService.swiftmodule"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SimpleLogger.swiftmodule"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraNet.swiftmodule"
+- "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/Socket.swiftmodule"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SimpleHttpClient.swiftmodule"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/SwiftStddef.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/AssertionReporting.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/SwiftStdbool.h"
+- "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/Kitura-net.git--7410958935072501107/Sources/CHTTPParser/include/CHTTPParser.h"
+- "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/Kitura-net.git--7410958935072501107/Sources/CHTTPParser/include/http_parser.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/RuntimeStubs.h"
+- "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/Kitura-net.git--7410958935072501107/Sources/CHTTPParser/include/utils.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/LibcShims.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/UnicodeShims.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/RuntimeShims.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/FoundationShims.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/ObjectiveCOverlayShims.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/DispatchOverlayShims.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/GlobalObjects.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/HeapObject.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/SwiftStdint.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/RefCount.h"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/Visibility.h"
+- "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/CCurl.git-8026296523752779197/module.modulemap"
+- "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/CHTTPParser.build/module.modulemap"
+- "/Library/Developer/Toolchains/swift-3.1.1-RELEASE.xctoolchain/usr/lib/swift/shims/module.modulemap"
+interface-hash: "552a6cda76295afb23bb7077652ba441"

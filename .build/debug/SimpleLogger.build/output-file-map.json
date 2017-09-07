@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SimpleLogger.build/master.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/bluemix-simple-logger-swift.git-4349283162402629951/Sources/SimpleLogger.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SimpleLogger.build/SimpleLogger.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SimpleLogger.build/SimpleLogger.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SimpleLogger.build/SimpleLogger~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/SimpleLogger.build/SimpleLogger.swiftdeps"
+  }
+}

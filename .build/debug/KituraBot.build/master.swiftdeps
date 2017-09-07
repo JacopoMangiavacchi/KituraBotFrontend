@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swift-3.1.1-RELEASE)"
+options: "0a8327b7721b9cb4a8f5f4751173e597"
+build_time: [558067914, 532036000]
+inputs:
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/KituraBot.git-2938924664839609931/Sources/KituraBot.swift": [558067887, 0]

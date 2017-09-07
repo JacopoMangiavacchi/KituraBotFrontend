@@ -1,0 +1,65 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/master.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/jKitura-Request.git--6930059653264065046/Sources/KituraRequest/KituraRequest.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/KituraRequest.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/KituraRequest.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/KituraRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/KituraRequest.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/jKitura-Request.git--6930059653264065046/Sources/KituraRequest/Request.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/Request.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/Request.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/Request~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/Request.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/jKitura-Request.git--6930059653264065046/Sources/KituraRequest/RequestError.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/RequestError.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/RequestError.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/RequestError~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/RequestError.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/jKitura-Request.git--6930059653264065046/Sources/KituraRequest/Encoding/JSONEncoding.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/JSONEncoding.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/Encoding/JSONEncoding.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/JSONEncoding~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/JSONEncoding.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/jKitura-Request.git--6930059653264065046/Sources/KituraRequest/Encoding/Encoding.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/Encoding.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/Encoding/Encoding.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/Encoding~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/Encoding.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/jKitura-Request.git--6930059653264065046/Sources/KituraRequest/Encoding/MultipartEncoding.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/MultipartEncoding.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/Encoding/MultipartEncoding.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/MultipartEncoding~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/MultipartEncoding.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/jKitura-Request.git--6930059653264065046/Sources/KituraRequest/Encoding/URLEncoding.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/URLEncoding.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/Encoding/URLEncoding.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/URLEncoding~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/URLEncoding.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/jKitura-Request.git--6930059653264065046/Sources/KituraRequest/Encoding/MultipartFormData/BodyPart.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/BodyPart.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/Encoding/MultipartFormData/BodyPart.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/BodyPart~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/BodyPart.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/jKitura-Request.git--6930059653264065046/Sources/KituraRequest/Encoding/MultipartFormData/KituraRequest+Random.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/KituraRequest+Random.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/Encoding/MultipartFormData/KituraRequest+Random.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/KituraRequest+Random~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/KituraRequest+Random.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/jKitura-Request.git--6930059653264065046/Sources/KituraRequest/Encoding/MultipartFormData/BodyBoundary.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/BodyBoundary.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/Encoding/MultipartFormData/BodyBoundary.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/BodyBoundary~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraRequest.build/BodyBoundary.swiftdeps"
+  }
+}

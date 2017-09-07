@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraBotFacebookMessenger.build/master.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/KituraBotFacebookMessenger.git-2431227548511096383/Sources/KituraBotFacebookMessenger.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraBotFacebookMessenger.build/KituraBotFacebookMessenger.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraBotFacebookMessenger.build/KituraBotFacebookMessenger.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraBotFacebookMessenger.build/KituraBotFacebookMessenger~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraBotFacebookMessenger.build/KituraBotFacebookMessenger.swiftdeps"
+  }
+}

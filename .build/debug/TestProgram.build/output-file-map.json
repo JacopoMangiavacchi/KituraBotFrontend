@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/TestProgram.build/master.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/Configuration.git--2683441109504822782/Sources/TestProgram/main.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/TestProgram.build/main.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/TestProgram.build/main.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/TestProgram.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/TestProgram.build/main.swiftdeps"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/HeliumLogger.build/master.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/HeliumLogger.git-2106793442615829935/Sources/HeliumLogger/HeliumStreamLogger.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/HeliumLogger.build/HeliumStreamLogger.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/HeliumLogger.build/HeliumStreamLogger.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/HeliumLogger.build/HeliumStreamLogger~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/HeliumLogger.build/HeliumStreamLogger.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/HeliumLogger.git-2106793442615829935/Sources/HeliumLogger/HeliumLogger.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/HeliumLogger.build/HeliumLogger.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/HeliumLogger.build/HeliumLogger.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/HeliumLogger.build/HeliumLogger~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/HeliumLogger.build/HeliumLogger.swiftdeps"
+  }
+}

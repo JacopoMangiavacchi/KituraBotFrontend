@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swift-3.1.1-RELEASE)"
+options: "a3912221504d5d5e08a156d001509497"
+build_time: [558067899, 952577000]
+inputs:
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/HeliumLogger.git-2106793442615829935/Sources/HeliumLogger/HeliumStreamLogger.swift": [558067887, 0]
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/HeliumLogger.git-2106793442615829935/Sources/HeliumLogger/HeliumLogger.swift": [558067887, 0]

@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swift-3.1.1-RELEASE)"
+options: "8385b2a5e9525c0a27a0ed46692c66a7"
+build_time: [558067899, 736173000]
+inputs:
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/SwiftyJSON.git--6955445084174387031/Source/SwiftyJSON.swift": [558067888, 0]
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/SwiftyJSON.git--6955445084174387031/Source/LclJSONSerialization.swift": [558067888, 0]

@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraBotMobileAPIWithBluemixPush.build/master.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/KituraBotMobileAPIWithBluemixPush.git-3620580175174406887/Sources/KituraBotMobileAPIWithBluemixPush.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraBotMobileAPIWithBluemixPush.build/KituraBotMobileAPIWithBluemixPush.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraBotMobileAPIWithBluemixPush.build/KituraBotMobileAPIWithBluemixPush.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraBotMobileAPIWithBluemixPush.build/KituraBotMobileAPIWithBluemixPush~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraBotMobileAPIWithBluemixPush.build/KituraBotMobileAPIWithBluemixPush.swiftdeps"
+  }
+}

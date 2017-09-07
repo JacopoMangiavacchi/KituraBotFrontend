@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/BluemixPushNotifications.build/master.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/bluemix-pushnotifications-swift-sdk.git--8182458866336539207/Sources/PushNotifications.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/BluemixPushNotifications.build/PushNotifications.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/BluemixPushNotifications.build/PushNotifications.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/BluemixPushNotifications.build/PushNotifications~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/BluemixPushNotifications.build/PushNotifications.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/bluemix-pushnotifications-swift-sdk.git--8182458866336539207/Sources/Notification.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/BluemixPushNotifications.build/Notification.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/BluemixPushNotifications.build/Notification.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/BluemixPushNotifications.build/Notification~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/BluemixPushNotifications.build/Notification.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/bluemix-pushnotifications-swift-sdk.git--8182458866336539207/Sources/PushNotificationsError.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/BluemixPushNotifications.build/PushNotificationsError.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/BluemixPushNotifications.build/PushNotificationsError.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/BluemixPushNotifications.build/PushNotificationsError~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/BluemixPushNotifications.build/PushNotificationsError.swiftdeps"
+  }
+}

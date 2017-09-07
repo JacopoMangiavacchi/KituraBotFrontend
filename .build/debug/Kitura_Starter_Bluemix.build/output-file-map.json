@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/Kitura_Starter_Bluemix.build/master.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/Sources/ResourcePathHandler.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/Kitura_Starter_Bluemix.build/ResourcePathHandler.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/Kitura_Starter_Bluemix.build/ResourcePathHandler.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/Kitura_Starter_Bluemix.build/ResourcePathHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/Kitura_Starter_Bluemix.build/ResourcePathHandler.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/Sources/main.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/Kitura_Starter_Bluemix.build/main.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/Kitura_Starter_Bluemix.build/main.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/Kitura_Starter_Bluemix.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/Kitura_Starter_Bluemix.build/main.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/Sources/Configuration.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/Kitura_Starter_Bluemix.build/Configuration.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/Kitura_Starter_Bluemix.build/Configuration.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/Kitura_Starter_Bluemix.build/Configuration~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/Kitura_Starter_Bluemix.build/Configuration.swiftdeps"
+  }
+}

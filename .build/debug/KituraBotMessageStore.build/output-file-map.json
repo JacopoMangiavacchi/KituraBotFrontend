@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraBotMessageStore.build/master.swiftdeps"
+  },
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/KituraBotMessageStore.git-5877243048102548841/Sources/KituraBotMessageStore.swift": {
+    "dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraBotMessageStore.build/KituraBotMessageStore.d",
+    "object": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraBotMessageStore.build/KituraBotMessageStore.swift.o",
+    "swiftmodule": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraBotMessageStore.build/KituraBotMessageStore~partial.swiftmodule",
+    "swift-dependencies": "/Users/Jacopo/KituraBotFrontendEchoSample/.build/debug/KituraBotMessageStore.build/KituraBotMessageStore.swiftdeps"
+  }
+}

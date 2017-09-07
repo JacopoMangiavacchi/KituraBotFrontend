@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swift-3.1.1-RELEASE)"
+options: "63fd66884a3440196f683ac5e79c3f56"
+build_time: [558067899, 735344000]
+inputs:
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/bluemix-simple-logger-swift.git-4349283162402629951/Sources/SimpleLogger.swift": [558067888, 0]

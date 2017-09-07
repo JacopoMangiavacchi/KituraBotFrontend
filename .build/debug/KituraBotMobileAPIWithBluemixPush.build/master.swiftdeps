@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swift-3.1.1-RELEASE)"
+options: "cf218cccaaa971a8fab7777270da9e87"
+build_time: [558067915, 219929000]
+inputs:
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/KituraBotMobileAPIWithBluemixPush.git-3620580175174406887/Sources/KituraBotMobileAPIWithBluemixPush.swift": [558067883, 0]

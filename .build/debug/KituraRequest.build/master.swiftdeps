@@ -1,0 +1,14 @@
+version: "Apple Swift version 3.1 (swift-3.1.1-RELEASE)"
+options: "e15ee9100b8c2982254e9687d6182205"
+build_time: [558067909, 538359000]
+inputs:
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/jKitura-Request.git--6930059653264065046/Sources/KituraRequest/KituraRequest.swift": [558067884, 0]
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/jKitura-Request.git--6930059653264065046/Sources/KituraRequest/Request.swift": [558067884, 0]
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/jKitura-Request.git--6930059653264065046/Sources/KituraRequest/RequestError.swift": [558067884, 0]
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/jKitura-Request.git--6930059653264065046/Sources/KituraRequest/Encoding/JSONEncoding.swift": [558067884, 0]
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/jKitura-Request.git--6930059653264065046/Sources/KituraRequest/Encoding/Encoding.swift": [558067884, 0]
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/jKitura-Request.git--6930059653264065046/Sources/KituraRequest/Encoding/MultipartEncoding.swift": [558067884, 0]
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/jKitura-Request.git--6930059653264065046/Sources/KituraRequest/Encoding/URLEncoding.swift": [558067884, 0]
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/jKitura-Request.git--6930059653264065046/Sources/KituraRequest/Encoding/MultipartFormData/BodyPart.swift": [558067884, 0]
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/jKitura-Request.git--6930059653264065046/Sources/KituraRequest/Encoding/MultipartFormData/KituraRequest+Random.swift": [558067884, 0]
+  "/Users/Jacopo/KituraBotFrontendEchoSample/.build/checkouts/jKitura-Request.git--6930059653264065046/Sources/KituraRequest/Encoding/MultipartFormData/BodyBoundary.swift": [558067884, 0]
