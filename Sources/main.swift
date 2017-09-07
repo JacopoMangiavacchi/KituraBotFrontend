@@ -14,6 +14,7 @@ import KituraNet
 import LoggerAPI
 import HeliumLogger
 import CloudFoundryEnv
+import Configuration
 import KituraRequest
 import KituraBot
 import KituraBotMessageStore
@@ -140,13 +141,9 @@ do {
 
 
 // Start Kitura-Starter-Bluemix server
-do {
-  let appEnv = try CloudFoundryEnv.getAppEnv()
-  let port: Int = appEnv.port
-  Log.info("Server will be started on '\(appEnv.url)'.")
-  //CloudFoundryDeploymentTracker(repositoryURL: "https://github.com/IBM-Swift/Kitura-Starter-Bluemix.git", codeVersion: nil).track()
-  Kitura.addHTTPServer(onPort: port, with: router)
-  Kitura.run()
-} catch CloudFoundryEnvError.InvalidValue {
-  Log.error("Oops... something went wrong. Server did not start!")
-}
+let appEnv = ConfigurationManager()
+let port: Int = appEnv.port
+Log.info("Server will be started on '\(appEnv.url)'.")
+//CloudFoundryDeploymentTracker(repositoryURL: "https://github.com/IBM-Swift/Kitura-Starter-Bluemix.git", codeVersion: nil).track()
+Kitura.addHTTPServer(onPort: port, with: router)
+Kitura.run()
